@@ -1,0 +1,35 @@
+- python初步学习笔记	
+	- 注意
+		- 4个空格缩进
+		- 程序开头加入 #!/usr/bin/env python3 #*- coding: utf-8 -*-
+			
+		- 直接运行py文件
+			- 程序第一行加注释：#!/usr/bin/env python3
+			- 通过命令给py文件加权限：chmod a+x xx.py
+			- 运行 ./xx.py
+		- 语句以":"结尾，缩进语句为代码块
+	- 基础
+		- 运行python
+			- python3
+		- 退出python环境
+			- exit()
+		- 运行某个py程序	
+			- cd py #切换到程序所在目录 
+			- python3 xx.py #打开py程序
+	- 输入和输出
+		- 输入
+			- name = input()
+			- name = input('赶紧输入你所想要的’) #加点提示信息
+		- 输出
+			- print('xx')		
+			- print('hello', 'there’) #遇到逗号会输出一个空格  
+			- print(a)
+			- print('''line1... line2... line3'’') #输出多行
+			- print('I\'m ok.') #转义字符\
+	- 基本运算
+		- 取整除
+			- 10 // 3
+				- 3
+		- 求余数
+			- 10 % 3
+				- 1
